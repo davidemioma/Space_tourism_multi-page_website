@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Destination</title>
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <script defer src="./main.js"></script>
+  </head>
+  <body class="destination">
+    <!-- NAVIGATION BAR -->
+    <nav class="nav container">
+      <img src="./images/shared/logo.svg" alt="" class="logo" />
+      <img
+        src="./images/shared/icon-hamburger.svg"
+        alt=""
+        class="nav_toggler"
+      />
+      <div class="line"></div>
+      <ul class="nav_list">
+        <li>
+          <a href="./index.html" class="link"><span>00</span>home</a>
+        </li>
+
+        <li>
+          <a href="./destination.html" class="link"
+            ><span>01</span>destination</a
+          >
+        </li>
+
+        <li>
+          <a href="./crew.html" class="link"><span>02</span>crew</a>
+        </li>
+
+        <li>
+          <a href="./technology.html" class="link"><span>03</span>technology</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- NAV MODAL -->
+    <div class="modal">
+      <img class="close-modal" src="./images/shared/icon-close.svg" alt="" />
+
+      <ul class="modal_list">
+        <li>
+          <a href="./index.html"><span>00</span>home</a>
+        </li>
+
+        <li>
+          <a href="./destination.html"><span>01</span>destination</a>
+        </li>
+
+        <li>
+          <a href="./crew.html"><span>02</span>crew</a>
+        </li>
+
+        <li>
+          <a href="./technology.html"><span>03</span>technology</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- DESTINATION CONTENT -->
+    <div class="dest_content container">
+      <h3><span>01 </span>pick your destination</h3>
+
+      <div class="dest_grid">
+        <img
+          src="./images/destination/image-moon.png"
+          alt=""
+          class="planet_img"
+        />
+
+        <div class="planet_info">
+          <ul class="dest_list">
+            <li>Moon</li>
+            <li>Mars</li>
+            <li>Europa</li>
+            <li>Titan</li>
+          </ul>
+
+          <h1 class="planet_name">Moon</h1>
+
+          <p class="planet_text">
+            See our planet as you’ve never seen it before. A perfect relaxing
+            trip away to help regain perspective and come back refreshed. While
+            you’re there, take in some history by visiting the Luna 2 and Apollo
+            11 landing sites.
+          </p>
+
+          <div class="dest_div">
+            <span class="dest_span">
+              <h3>avg. distance</h3>
+              <h2 class="avg_distance">384,400 km</h2>
+            </span>
+
+            <span class="dest_span">
+              <h3>est. travel time</h3>
+              <h2 class="est_time">3 days</h2>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
